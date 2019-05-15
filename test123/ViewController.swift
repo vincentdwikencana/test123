@@ -60,7 +60,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
-        
+        print("session")
     }
     
     func sessionWasInterrupted(_ session: ARSession) {
@@ -73,3 +73,4 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
 }
+
